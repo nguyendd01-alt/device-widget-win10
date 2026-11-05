@@ -1,0 +1,39 @@
+﻿DEVICE WIDGET - HƯỚNG DẪN CÀI ĐẶT
+==================================
+
+Yêu cầu: Windows 10 (bản 1809 trở lên) hoặc Windows 11. Không cần cài thêm gì, không cần quyền quản trị.
+
+BƯỚC 0 - nếu nhận được file .zip
+  Bấm phải file zip > Extract All (Giải nén tất cả). Phải giải nén trước, không chạy thẳng trong zip.
+
+CÁCH 1 - file DeviceWidget-Setup.exe
+  1. Nhấp đúp DeviceWidget-Setup.exe.
+  2. Nếu Windows hiện "Windows protected your PC": bấm "More info" (Thông tin thêm) > "Run anyway" (Vẫn chạy).
+     (Cảnh báo này xuất hiện vì file không có chữ ký số của nhà phát hành, không phải vì có virus.)
+  3. Chọn có / không bật "Chạy cùng Windows" là xong.
+
+CÁCH 2 - cài thủ công (dùng khi máy chặn file .exe)
+  Mở thư mục "Cai-thu-cong" (hoặc thư mục giải nén từ DeviceWidget.zip), nhấp đúp Install.cmd.
+
+Sau khi cài: có biểu tượng "Device Widget" ngoài Desktop và trong Start Menu.
+  (Nếu gõ tìm trong Windows chưa thấy ngay, khởi động lại máy một lần là tìm được.)
+
+SỬ DỤNG
+  - Bấm Ctrl + Alt + D ở bất kỳ đâu để hiện / ẩn widget.
+  - Bấm vào từng biểu tượng (Wi-Fi, Bluetooth, tai nghe, chuột...) để tuỳ chỉnh.
+  - Muốn widget luôn hiện trên màn hình desktop (như gadget): bấm nút ghim (hình đinh ghim) ở góc trên widget.
+    Khi đã ghim, widget nằm ngay trên hình nền, không mất khi bấm Win + D; Ctrl + Alt + D sẽ kéo nó lên trước.
+  - Thêm / bớt / sắp xếp ô biểu tượng: bấm nút bút chì ở góc trên widget. Có thêm các ô CPU, RAM, Ổ đĩa, Pin.
+  - Ô "Mạng LAN" tự hiện "Đã kết nối" (kèm tốc độ) khi máy cắm dây mạng; ô Wi-Fi hiện mạng Wi-Fi riêng.
+  - Giao diện Liquid Glass (kính mờ): bấm phải vào widget > "Giao diện Liquid Glass".
+    Widget sẽ tự khởi động lại (khoảng 10-15 giây) để đổi giao diện.
+  - Biểu tượng ở khay hệ thống (góc phải thanh taskbar): bấm phải để đổi phím tắt, bật chạy cùng Windows, hoặc thoát.
+  - Mở lại sau khi đã thoát: bấm phím Windows, gõ "Device Widget" rồi Enter,
+    hoặc nhấp đúp biểu tượng Device Widget ngoài Desktop.
+
+GỠ CÀI ĐẶT
+  Settings > Apps > Apps & features > Device Widget > Uninstall.
+
+LƯU Ý
+  - Thanh độ sáng: laptop dùng được ngay; màn hình rời cần bật DDC/CI trong menu của màn hình.
+  - Mỗi máy chỉ hiện những thiết bị mà máy đó có (Wi-Fi, Bluetooth, webcam...).
