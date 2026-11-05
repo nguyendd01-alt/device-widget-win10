@@ -1,0 +1,6 @@
+dist/
+app.ico
+DeviceWidget.exe
+*.dll
+error.log
+settings.json
